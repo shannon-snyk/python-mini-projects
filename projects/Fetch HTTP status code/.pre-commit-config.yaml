@@ -1,0 +1,9 @@
+repos:
+- repo:  local
+  hooks:
+    -   id: snyk-test
+        name: Snyk test
+        description: run snyk test --file=requirements.txt
+        entry: snyk test
+        language: system
+     

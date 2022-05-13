@@ -20,3 +20,4 @@ except URLError as e:
     #In case of bad URL or connection failure, prints Win Error and thumbs_down emoji
     print('Status :',  str(e.reason).split(']')[0].replace('[','') +  ' ' + emoji.emojize(':thumbs_down:'))
     print('Message : '+ str(e.reason).split(']')[1])
+    print('hi')
